@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=170&section=header&text=Shrey%20Shah&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Software%20Engineer%20%E2%80%A2%20Cloud%20%26%20Generative%20AI%20on%20AWS&descAlignY=58&descSize=16" alt="Shrey Shah" width="100%"/>
+  <img src="https://raw.githubusercontent.com/ShreymShah/ShreymShah/main/assets/banner.svg" alt="Shrey Shah" width="100%"/>
 </p>
 
 <p align="center">
@@ -106,8 +106,30 @@ I build cloud and generative AI systems for real clients as a Junior Software De
 
 ### Systems
 
-- [**Unix Systems Programming in C**](https://github.com/ShreymShah/unix-systems-programming-c): a multithreaded HTTP/1.1 server, an inode-based file system simulator, and a parallel downloader built on fork and exec.
-- [**Reliable Transport and P2P**](https://github.com/ShreymShah/reliable-transport-p2p): TCP Reno congestion control implemented from scratch over UDP, and a P2P file-sharing network with a custom binary protocol.
+<details>
+<summary><b>Unix Systems Programming in C</b>: multithreaded HTTP server, file system simulator, and parallel downloader</summary>
+
+<p><img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square" alt="C"/> <img src="https://img.shields.io/badge/POSIX-2F4F4F?style=flat-square" alt="POSIX"/> <img src="https://img.shields.io/badge/pthreads-2F4F4F?style=flat-square" alt="pthreads"/> <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square" alt="Linux"/></p>
+
+[Repo →](https://github.com/ShreymShah/unix-systems-programming-c)
+
+- Multithreaded HTTP/1.1 server on TCP sockets, with a thread per connection, GET and HEAD support, path-traversal protection, and correct status codes.
+- Inode-based file system simulator with directory entries and binary file I/O.
+- Parallel downloader built on fork, execvp, and waitpid, with a concurrency limit.
+
+</details>
+
+<details>
+<summary><b>Reliable Transport and P2P</b>: TCP Reno over UDP and a peer-to-peer file-sharing network</summary>
+
+<p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square" alt="Python"/> <img src="https://img.shields.io/badge/UDP-2F4F4F?style=flat-square" alt="UDP"/> <img src="https://img.shields.io/badge/TCP_Reno-2F4F4F?style=flat-square" alt="TCP Reno"/> <img src="https://img.shields.io/badge/Sockets-2F4F4F?style=flat-square" alt="Sockets"/></p>
+
+[Repo →](https://github.com/ShreymShah/reliable-transport-p2p)
+
+- TCP Reno congestion control implemented from scratch over UDP: slow start, congestion avoidance, fast retransmit, fast recovery, and timeouts, with cwnd graphs.
+- P2P file-sharing network with a central tracker, a custom binary wire protocol, retransmission, and MD5 integrity checks. Standard library only.
+
+</details>
 
 ### Tech stack
 
@@ -118,9 +140,9 @@ I build cloud and generative AI systems for real clients as a Junior Software De
 ### Contributions
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShreymShah/ShreymShah/main/profile-3d-contrib/profile-night-rainbow.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShreymShah/ShreymShah/main/profile-3d-contrib/profile-green-animate.svg" />
+  <img src="https://raw.githubusercontent.com/ShreymShah/ShreymShah/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" />
 </picture>
 
 **Open to** 2027 new grad SWE and FDE roles · [LinkedIn](https://www.linkedin.com/in/shrey-shah-0881ba22a) · [Email](mailto:shreysms04@gmail.com)
