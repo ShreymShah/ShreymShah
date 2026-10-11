@@ -136,11 +136,3 @@ I build cloud and generative AI systems for real clients as a Junior Software De
 <p>
   <img src="https://skillicons.dev/icons?i=py,ts,js,c,java,aws,react,nodejs,postgres,mysql,git,linux" alt="Python, TypeScript, JavaScript, C, Java, AWS, React, Node.js, PostgreSQL, MySQL, Git, Linux"/>
 </p>
-
-### Contributions
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShreymShah/ShreymShah/main/profile-3d-contrib/profile-night-rainbow.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShreymShah/ShreymShah/main/profile-3d-contrib/profile-green-animate.svg" />
-  <img src="https://raw.githubusercontent.com/ShreymShah/ShreymShah/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" />
-</picture>
