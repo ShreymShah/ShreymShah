@@ -9,26 +9,26 @@
 
 I build cloud and generative AI systems for real clients as a Junior Software Developer at Amazon Web Services, usually as the only engineer, from the discovery call to the deploy. Computer Science senior at Cal Poly San Luis Obispo, graduating May 2027.
 
-**Looking for:** 2027 new grad roles in software engineering and forward deployed engineering.
+**Looking for:** 2027 new grad roles in software engineering, AI engineering, and forward deployed engineering.
 
 ### Client work
 <sub>These live in the <a href="https://github.com/cal-poly-dxhub">cal-poly-dxhub</a> org, so they don't show in my repos. Click a project to expand it.</sub>
 
 <details open>
-<summary><b>Manifest MedEx Data Quality Platform</b>: serverless HL7 v2 and CCDA ingestion for a healthcare data exchange</summary>
+<summary><b>Manifest MedEx Data Quality Platform</b>: serverless healthcare data platform for a health information exchange</summary>
 
 <p><img src="https://img.shields.io/badge/AWS_CDK-FF9900?style=flat-square" alt="AWS CDK"/> <img src="https://img.shields.io/badge/Lambda-FF9900?style=flat-square" alt="Lambda"/> <img src="https://img.shields.io/badge/EventBridge-FF9900?style=flat-square" alt="EventBridge"/> <img src="https://img.shields.io/badge/SQS-FF9900?style=flat-square" alt="SQS"/> <img src="https://img.shields.io/badge/OpenSearch_Serverless-FF9900?style=flat-square" alt="OpenSearch Serverless"/> <img src="https://img.shields.io/badge/Aurora_PostgreSQL-FF9900?style=flat-square" alt="Aurora PostgreSQL"/> <img src="https://img.shields.io/badge/Cognito-FF9900?style=flat-square" alt="Cognito"/> <img src="https://img.shields.io/badge/CloudFront-FF9900?style=flat-square" alt="CloudFront"/> <img src="https://img.shields.io/badge/React-149ECA?style=flat-square" alt="React"/></p>
 
 [Repo →](https://github.com/cal-poly-dxhub/manifest-medex-data-analysis)
 
-- Sole engineer across infrastructure, backend, and frontend. I joined the discovery calls, gathered the requirements, and scoped the project with the customer.
+- Ingests HL7 v2 messages and CCDA documents. Sole engineer across infrastructure, backend, and frontend. I joined the discovery calls, gathered the requirements, and scoped the project with the customer.
 - Designed the architecture for their volume of about 60 million messages a month: S3, EventBridge, SQS with a dead-letter queue, Lambda, OpenSearch Serverless, and Aurora PostgreSQL in a private VPC, with a Cognito-protected React explorer behind CloudFront.
 - Stored the files in S3 and the metadata in Aurora for cost and compute, and chose Aurora because the customer wanted SQL search.
 - Prototype, now in customer testing.
 
 </details>
 
-<details open>
+<details>
 <summary><b>Orcutt Schools Chatbot</b>: RAG chatbot on Amazon Bedrock, live for a school district</summary>
 
 <p><img src="https://img.shields.io/badge/Amazon_Bedrock-FF9900?style=flat-square" alt="Amazon Bedrock"/> <img src="https://img.shields.io/badge/RAG-6E40C9?style=flat-square" alt="RAG"/> <img src="https://img.shields.io/badge/OCR-6E40C9?style=flat-square" alt="OCR"/> <img src="https://img.shields.io/badge/React-149ECA?style=flat-square" alt="React"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square" alt="Python"/></p>
@@ -144,5 +144,3 @@ I build cloud and generative AI systems for real clients as a Junior Software De
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShreymShah/ShreymShah/main/profile-3d-contrib/profile-green-animate.svg" />
   <img src="https://raw.githubusercontent.com/ShreymShah/ShreymShah/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph" />
 </picture>
-
-**Open to** 2027 new grad SWE and FDE roles · [LinkedIn](https://www.linkedin.com/in/shrey-shah-0881ba22a) · [Email](mailto:shreysms04@gmail.com)
